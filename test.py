@@ -5,12 +5,12 @@ class Tester:
     def __init__(self, num):
         self.num = num
         input_name = "s"+str(num)+".txt"
-        with open(input_name) as f:
+        with open(input_name, encoding='utf-8') as f:
             self.strset = StringSet([line.strip() for line in f.readlines()])
         
         self.samples = dict()
         test_name = "t"+str(num)+".txt"
-        with open(test_name) as f:
+        with open(test_name, encoding='utf-8') as f:
             lines = f.readlines()
             for line in lines:
                 key, exists = line.strip().split()
