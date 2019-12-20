@@ -4,7 +4,8 @@
 https://docs.google.com/presentation/d/1REM-hGZtoxLWP5adwsMmv0e860zDbqmR7kdCNZEAsEM/edit?usp=sharing
 
 ## 課題: 文字列集合を表現するデータ構造を作ってください
-## 期限: 2020/1/10(fri)24:00
+- 期限: 2020/1/10(fri)24:00
+- 提出: 普段通り，自分の名前のディレクトリ内に全ファイルコピーしてください．
 ### 文字列集合
 ![S={s_1, s_2, ..., s_n} | s_i is string](img1.gif)
 
