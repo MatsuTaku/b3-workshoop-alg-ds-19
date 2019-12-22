@@ -19,7 +19,6 @@ class Tester:
     def test(self):
         success = True
         for key, exists in self.samples.items():
-            correct = exists == self.strset.contains(key)
             if exists != self.strset.contains(key):
                 success = False
                 print("Failed: The \"" + key + "\" should " + ("NOT " if not exists else "") + "be contained!")
