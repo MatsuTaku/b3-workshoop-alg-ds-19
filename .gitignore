@@ -1,3 +1,7 @@
+core.*
+a.out
+
+
 ### https://raw.github.com/github/gitignore/a14296fa82ae0be1ddeaf39b12fce1e2aed2c5b9/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
